@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif sans-serif;
-    background-color: #e4ecf7d9;
+    background-color: #3b475ad9;
     color: #000000;
     line-height: 1.6;
 }
@@ -54,6 +54,7 @@ body {
     background-color: bisque;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    border-radius: 8px;
 }
 
 .menu ul li a {
@@ -89,6 +90,7 @@ body {
     max-width: 1200px;
     flex-wrap: wrap;
     margin: auto;
+    border-radius: 10px;
 }
 
 .introduccion {
@@ -156,4 +158,24 @@ body {
 .card1 a:hover, .card2 a:hover, .card3 a:hover, .card4 a:hover {
     background-color: #182848;
     transform: translateY(-1px);
+}
+
+.site-footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #182848;
+    color: white;
+    margin-top: 2rem;
+    border-top: 4px solid #4b6cb7;
+}
+
+.site-footer a {
+   display: inline-block;
+    margin-top: 1rem;
+    padding: 8px 15px;
+    background-color: #4b6cb7;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
 }
